@@ -50,7 +50,7 @@ async def get_max_duration(year: Union[int, None] = 0, platform: Union[str, None
 
 # Funcion 2.
 @app.get('/Peliculas por Puntajes/')
-async def get_score_count(platform:str, scored:int, year:int):
+async def get_score_count(platform:str, scored:float, year:int):
 
     df_filtrado = df_completo.loc[(df_completo['platform'] == platform) & (df_completo['release_year'] == year)]
     df_filtrado = df_filtrado.loc[df_filtrado['rating_prom'] > scored]
