@@ -116,5 +116,5 @@ Para terminar, documenté todos los pasos realizados en este Readme.md, para dis
 Muchas gracias!
 
 ##### Autor: Alejandro Busquet
-##### Correo: abusquet@hotmail.com / algabu00@gmail.com
+##### Correo: algabu00@gmail.com
 
